@@ -14,6 +14,7 @@ public class DivisionController {
 			@RequestParam(value="value1", required=true) double value1,
 			@RequestParam(value="value2", required=true) double value2
 			) {
+		
 		return value1/value2;
 	}
 }
